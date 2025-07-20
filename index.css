@@ -1,0 +1,64 @@
+body,
+html {
+      width: 100%;
+      height: 100%;
+      font-family: 'Montserrat', sans-serif;
+        background: url("C:\\Users\\TinaS\\Documents\\Web development Files\\STARTUP\\pexels-danbuilds-633409.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+} 
+/*on the website css tricks and perfect full page background, this tag ensures that your
+picture fit perfectly on the first page of your website*/
+h1 {
+  text-align: center;
+  color: white;
+  font-size: 3rem;
+}
+
+hr{
+  border-color: orange;
+  border-width: 5px;
+  max-width: 65px;
+  margin: 1rem auto;
+  border-style: solid;
+  border-top: none;
+}
+
+hr {
+  all: unset;                 /* reset all browser styles */
+  display: block;
+  height: 5px;                /* controls thickness */
+  width: 65px;                /* controls how wide the line is */
+  background-color: orange;  /* bright orange color */
+  margin: 1rem auto;          /* center it */
+  border-radius: 5px;         /* rounded ends (optional) */
+}
+
+.buffer{
+  height: 50px;
+}
+
+.btn{
+  font-weight: 700px;
+  border-radius: 300px;
+}
+
+/*the border radius will make the borders more circular and the umm font will make the font font-weight
+thicker or let us say bolder*/
+.btn-primary{
+  background-color: orange;
+}
+
+.btn-primary:hover{
+  background-color: orangered;
+}
+
+.btn-xl{
+  padding : 1rem 2rem;
+  width: auto;
+}
+
+
+
